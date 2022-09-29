@@ -8,11 +8,11 @@ let diceRoll = prompt("Welcome User do you feel lucky? ")
     
 
 
-diceRoll = Math.ceil(Math.random()*6)
-    if(diceRoll === "yes"){
+roll = Math.ceil(Math.random()*6)
+    if(roll === "yes"){
         console.log("Let's Roll!")
-}   if(diceRoll >= 5 * 0.32)
-    console.log(diceRoll);
+}   if(roll >= 5 * 0.32)
+    console.log(roll);
 
 
 /*
